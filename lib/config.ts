@@ -39,6 +39,5 @@ export const status = [
 ];
 
 export const socials = {
-  facebook: "https://facebook.com/TU_PAGINA",
-  instagram: "https://instagram.com/TU_USUARIO",
+  instagram: "https://instagram.com/arrecife.ti",
 };

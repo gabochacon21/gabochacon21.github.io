@@ -17,7 +17,7 @@ export default function Home() {
           <a href="#servicios">/servicios</a>
           <a href="#planes">/planes</a>
           <a href="#proceso">/proceso</a>
-          <a href={whatsappUrl} className="accent">/contacto</a>
+          <a href="#contacto" className="accent">/contacto</a>
         </nav>
       </header>
 
@@ -46,7 +46,6 @@ export default function Home() {
                 <span className="accent">[OK]</span> {line}
               </div>
             ))}
-            <div className="muted">0 amenazas activas</div>
           </div>
         </div>
       </section>
@@ -97,7 +96,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="cta">
+      <section id="contacto" className="cta">
         <div className="cta-inner">
           <h2>¿Listo para <span className="accent">blindar</span> tu negocio?</h2>
           <p className="lead">Escribinos y coordinamos tu revisión gratuita esta semana.</p>
